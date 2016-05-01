@@ -1,15 +1,23 @@
-Answers:
+#Answers:
 
 1.1
 
-a) Curly Braces denote a block of code where we can define variables that will last up to the end of that block.
+1. Curly Braces denote a block of code where we can define variables that will last up to the end of that block.
 We use it in a function because we need to delimit the scope(extend of the block) of each function.
 Oficial answer: "The curly braces denote a block of code, in which variables can be declared. Variables declared within the block are valid only until the end of the block, marked by the matching right curly brace ’}’. The body of a function is one such type of block, and thus, curly braces are used to describe the extent of that block."
 
-b) Literal 7: is a constant numeric; "7" is a character representing the number 7 and '7' is basically the same.
+2. Literal 7: is a constant numeric; "7" is a character representing the number 7 and '7' is basically the same.
 Oficial answer: "The first literal describes an integer of value 7.
 The second describes a null- terminated string consisting of the character ’7’.
 The third describes the character ’7’, whose value is its ASCII character code (55). 
 
-c) double ans = 10.0 + (2.0 / (3.0 − 2.0) ∗ 2.0); ans = 11;
+3. double ans = 10.0 + (2.0 / (3.0 − 2.0) ∗ 2.0); ans = 11;
 Oficial answer: 10.0 + 2.0 / (3.0 - 2.0) * 2.0);
+
+1.2
+
+double ans = 18.0/squared(2+1);
+1. #define squared(x) x*x; => 18 / 2 + 1 * 2 + 1 = 9 + 2 + 1 = 12
+2. #define squared(x) (x*x); => 18 / (2 + 1 * 2 + 1) = 18 /(2 + 2 + 1) = 18/5 = 3.6
+3. #define squared(x) (x) * (x); => 18 / 3 * 3 = 6 * 3  = 18;
+4. #define squared(x) ((x)*(x)); => 18 / (3 * 3) = 18/9 = 2;
